@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1B7578">
+  <meta name="description" content="Proyecto de practica Reactor - JS">
+  <meta name="author" content="ZKC">
+  <meta name="copyright" content="Todos los derechos reservados © a '' ">
+
+  <title>Proyecto Reactor - JS</title>
+
+  <script src="https://kit.fontawesome.com/c3a0547943.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" href="img/js.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-------------------- Reactor -------------------->
+  <main class="fullpage-wrapper">
+    <div class="text-title" id="neon">
+     <h4>✦REACTOR✦</h4>
+    </div>
+    <div class="reactor-container" onclick="activeReactor()">
+      <div class="reactor-container-inner circle abs-center"></div>
+        <div class="tunnel circle abs-center"></div>
+        <div class="core-wrapper circle abs-center"></div>
+        <div class="core-outer circle abs-center"></div>
+        <div class="core-inner circle abs-center"></div>
+        <div class="coil-container" id="activar">
+        <div class="coil coil-1" id="color1"></div>
+        <div class="coil coil-2" id="color2"></div>
+        <div class="coil coil-3" id="color3"></div>
+        <div class="coil coil-4" id="color4"></div>
+        <div class="coil coil-5" id="color5" ></div>
+        <div class="coil coil-6" id="color6"></div>
+        <div class="coil coil-7" id="color7"></div>
+        <div class="coil coil-8" id="color8"></div>
+        </div>
+    </div>
+  </main>
+  <!-------------------- Fin del Reactor -------------------->
+
+  <!-------------------- Boton de redes sociales -------------------->
+  <section>
+    <div class="container-button">
+       <input type="checkbox" class="button-main" id="button-main">
+
+       <div class="redes">
+        <a id="open" class="fas fa-pencil-alt"><input type="button"></a>
+        <a href="https://facebook.com/AlfredCallejero" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/Alfred17_" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://instagram.com/barragan.alfred12" target="_blank" class="fa fa-instagram"></a>
+       </div>
+
+       <div class="button-secondary">
+          <label for="button-main" class="fa fa-plus"></label>
+       </div>
+    </div>
+  </section>
+  <!-------------------- Fin - Boton de redes sociales -------------------->
+
+  <!--------------------  Bitácora - POP UP -------------------->
+  <section id="modal-bitacora" class="modal-container">
+    <div class="modal">
+      <button id="close" class="boton-popup"><i class="fas fa-times-circle"></i></button>
+      <h1>Bitácora</h1>
+      <p>El propósito del proyecto fue realizar práctica para mantener un plazo de estudio el cual tiene como objetivo principal el aprendizaje del lenguaje de programación JavaScript y de la correcta maquetación.</p>
+      <br>
+      <p>Proyecto realizado con las tecnologías:</p>
+      <p><span>▶ HTML5</span></p>
+      <p><span>▶ CSS3</span></p>
+      <p><span>▶ JavaScript</span></p>
+    </div>
+  </section>
+  <!-------------------- Fin de Bitácora - POP UP -------------------->
+  <script src="js/main.js"></script>
+  <!--<script>document.oncontextmenu = function(){return false;}</script>--> <!--Bloquear -->
+</body>
+</html>
